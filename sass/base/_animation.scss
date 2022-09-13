@@ -1,0 +1,71 @@
+//*Animation text header*/
+@keyframes leftToRight {
+	0% {
+		opacity: 0;
+		transform: translateX(-15rem);
+		color: burlywood;
+	}
+
+	20% {
+		color: burlywood;
+	}
+
+	80% {
+		transform: translateX(1rem);
+	}
+
+	100% {
+		transform: translateX(0rem);
+	}
+}
+
+
+@keyframes rightToLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(15rem);
+		color: burlywood;
+	}
+
+	20% {
+		color: burlywood;
+	}
+
+	80% {
+		transform: translateX(-1rem);
+	}
+
+	100% {
+		transform: translateX(0rem);
+	}
+}
+
+/*Animation btn*/
+
+@keyframes btnUp {
+	0% {
+		opacity: 0;
+		transform: translateY(15rem);
+		color: burlywood;
+		background: burlywood;
+	}
+
+	20% {
+		color: burlywood;
+	}
+
+	80% {
+		transform: translateY(-1rem);
+	}
+	
+	100% {
+		transform: translateY(0rem);
+	}
+}
+
+//Title h2
+.title_h2 {
+	&:hover {
+		transform: skewY(2deg)  skewX(22deg)  scale(1.1)
+	}
+}

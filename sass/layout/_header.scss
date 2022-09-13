@@ -1,0 +1,25 @@
+///*Header*/
+.header {
+	position: relative;
+	background: url(../img/header/header-bg.png) center/cover no-repeat;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+	height: 95vh;
+
+	@media (min-resolution: 192dpi) and (min-width: 1300px),
+	(min-width: 1340px) {
+		background: linear-gradient(90deg, rgba($color-black, 0.2) 0.03%, rgba($color-white, 0.1) 99.93%), url(../img/header/header-bg.png) center/cover no-repeat;
+	}
+
+	&__logo {
+		position: absolute;
+		top: 5rem;
+		left: 5rem;
+		width: 5rem;
+	}
+
+	&__nav-button {
+		position: absolute;
+		top: 5rem;
+		right: 5rem;
+	}
+}
